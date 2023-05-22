@@ -1,31 +1,31 @@
-key.infinity.category=Безграничный редактор предметов
+key.infinity.category=Infinity Item Editor
 key.infinity.desc=Редактировать текущий предмет
-key.infinitycopy.desc=Скопировать инвентарь целевого игрока
+key.infinitycopy.desc=Скопировать инвентарь игрока
 key.infinitysave.desc=Сохранить текущий предмет в область сохранений
 
 warning.notcreative=Вы должны быть в творческом режиме для сохранения вещей
 
-itemGroup.unavailable=Безграничность - Недоступные
-itemGroup.banners=Безграничность - Баннеры
-itemGroup.skulls=Безграничность - Головы
-itemGroup.fireworks=Безграничность - Фейерверки
-itemGroup.thief=Безграничность - Украденное
-itemGroup.realm=Безграничность - Область сохранений
-itemGroup.void=Безграничность - Аннулированное
+itemGroup.unavailable=Недоступное
+itemGroup.banners=Баннеры
+itemGroup.skulls=Головы
+itemGroup.fireworks=Фейерверки
+itemGroup.thief=Чужие предметы
+itemGroup.realm=Сохраненные вещи
+itemGroup.void=Червоточина
 
 gui.close=Закрыть
 gui.save=Сохранить
-gui.drop=Бросить
+gui.drop=Выкинуть
 gui.reset=Восстановить
 gui.clear=Очистить
 
-gui.item=Безграничный редактор
+gui.item=Infinity Editor
 gui.spawnegg=Редактор яйца призыва
 gui.head=Редактор голов
 gui.armorstand=Редактор стойки для брони
-gui.color=Редатор цвета
-gui.nbt=Редактор ИДТ
-gui.nbtadv=Смотреть ИДТ
+gui.color=Редактор цвета
+gui.nbt=Редактор NBT
+gui.nbtadv=Просмотр NBT
 gui.enchanting=Зачарования
 gui.potion=Приготовление зелья
 gui.book=Редактор книг
@@ -33,21 +33,21 @@ gui.attributes=Редактор атрибутов
 gui.chestinventory=Инвентарь сундука
 gui.hideflags=Скрыть флаги
 gui.bannermaker=Конструктор баннеров
-gui.fireworks=Предосмотр фейерверка
-gui.specialbutton=Особенное ИДТ
-gui.headcollection=Коллекция голов
+gui.fireworks=Предпросмотр фейерверка
+gui.specialbutton=Прочие теги
+gui.headcollection=Сборник голов
 gui.lore=Редактор описаний
-gui.sign=Редатор таблички
-gui.paint=Текстурное рисование
-gui.villagertrades=Редактор сделок крестьянинов
-gui.trade=Редактор сделки крестьянина
-gui.pick=Сборщик предметов
-gui.lorepainter=Разрисовка описания
+gui.sign=Редактор таблички
+gui.paint=Рисование на текстуре
+gui.villagertrades=Редактор сделок жителей
+gui.trade=Редактор сделки жителя
+gui.pick=TODO
+gui.lorepainter=TODO
 
 gui.armorstand.pose=Редактор поз стойки для брони
-gui.armorstand.pose.reset.1=Только сбрасывает вращения!
+gui.armorstand.pose.reset.1=Сбросить вращение стойки
 gui.armorstand.invisible.note=Примечание: Удалить стойку для брони может быть сложно без команд.
-gui.armorstand.marker.note=Конструктор отключает взаимодействие и делает маленький хитбокс.
+gui.armorstand.marker.note=Тег Marker отключает взаимодействие со стойкой и делает её хитбокс меньше.
 
 gui.attributes.infinity.0=Входное значение
 gui.attributes.infinity.1=Безграничность
@@ -68,22 +68,22 @@ gui.book.author=Автор
 gui.book.generation=Генерация
 gui.book.resolved=Решено
 gui.book.resolved.tooltip.1=Было решено сервером
-gui.book.unresolved=Нерешено
-gui.book.unsign=Неподписанно
-gui.book.resign=Подписанно
+gui.book.unresolved=TODO
+gui.book.unsign=TODO
+gui.book.resign=TODO
 
 gui.enchanting.enchanttoggle.0=Показать применимые
 gui.enchanting.enchanttoggle.1=Показать все
 gui.enchanting.addall=Добавить все видимые
 gui.enchanting.search=Поиск
 
-gui.spawnegg.entity=Специфика объекта
-gui.spawnegg.mob=Специфика моба
-gui.spawnegg.mobspecific=%s специфики
-gui.spawnegg.animalspecific=Специфика животного
+gui.spawnegg.entity=Особенности объекта
+gui.spawnegg.mob=Особенности моба
+gui.spawnegg.mobspecific=%s TODO
+gui.spawnegg.animalspecific=Особенности животного
 
 gui.head.save.tooltip.1=Возможны задержки при загрузке информации об игроке.
-gui.head.save.tooltip.2=Это ванильная проблема.
+gui.head.save.tooltip.2=Это проблема игры.
 gui.head.list.tooltip.1=Список текущих игроков на сервере.
 gui.head.list.tooltip.2=--Ещё не реализовано--
 
@@ -99,7 +99,7 @@ gui.headcollection.category.monsters=Монстры
 gui.headcollection.category.plants=Растения
 
 gui.headcollection.clickhead=Нажмите чтобы вставить голову в пустой слот
-gui.headcollection.clickheadshift=Зажмите shift чтобы бросить голову
+gui.headcollection.clickheadshift=Зажмите shift чтобы выкинуть голову
 gui.headcollection.typesearch=Введите для поиска
 gui.headcollection.clicksearch=Нажмите для поиска!
 gui.headcollection.currentpage=Страница %s/%s
@@ -110,18 +110,18 @@ gui.headcollection.ininventory=В инвентаре: %s
 gui.headcollection.notworking=Если головы не загружаются, установите мод LetsEncryptCraft или установите в лаунчере более новую версию Java!
 
 gui.item.toggleside=Изменить просмотр
-gui.item.discord=Зайти в Дискорд
+gui.item.discord=Ссылка на дискорд
 gui.item.share=Поделиться предметом
 gui.item.colorremove.tooltip.1=Удалить все цвета
 gui.item.drop.tooltip.1=Удерживайте shift чтобы скопировать команду /give в ваш буфер обмена
 gui.item.drop.tooltip.2=Затем вы можете вставить его в другое место
-gui.item.id=ИД предмета
+gui.item.id=Идентификатор предмета
 gui.item.count=Количество
 gui.item.meta=Мета
 gui.item.name=Название предмета
 gui.item.lore=Описание
 
-gui.nbt.update=Обновить ИДТ
+gui.nbt.update=Обновить NBT
 
 gui.nbt.comp.open=Нажмите чтобы развернуть составной тег
 gui.nbt.comp.close=Нажмите чтобы свернуть составной тег
@@ -139,11 +139,11 @@ gui.potion.showparticles.0=Спрятать частицы
 gui.potion.showparticles.1=Показать частицы
 
 gui.villagertrades.addtrade=Добавить сделку
-gui.villagertrades.leftclick=Левый клик редактировать
-gui.villagertrades.rightclick=Правый клик удалить
-gui.villagertrades.reset=Очистить сделки
+gui.villagertrades.leftclick=Левый клик для редактирования
+gui.villagertrades.rightclick=Правый клик для удаления
+gui.villagertrades.reset=Сбросить сделки
 
-gui.equipment.inventoryclone=Это копия вашено инвентаря. Изменения не будут сохранены.
+gui.equipment.inventoryclone=Это копия вашего инвентаря. Изменения не будут сохранены.
 
 gui.lore.addline=Добавить строку
 gui.lore.copylore=Скопировать описание
@@ -151,11 +151,11 @@ gui.lore.copyall=Скопировать подсказку
 gui.lore.paste=Вставить
 
 gui.lorepainter.insert=Вставить
-gui.lorepainter.preview=Предосмотр
+gui.lorepainter.preview=Предпросмотр
 gui.lorepainter.scale=Размер
 gui.lorepainter.symbol.fullblock=Полный блок
-gui.lorepainter.symbol.mediumshade=Средняя тень
-gui.lorepainter.symbol.darkshade=Тёмная тень
+gui.lorepainter.symbol.mediumshade=Средний оттенок
+gui.lorepainter.symbol.darkshade=Тёмный оттенок
 gui.lorepainter.symbol.fullspace=Пустое место
 
 flag.enchantment.0=Зачарования: показать
@@ -174,7 +174,7 @@ flag.iteminfo.1=Информация предмета: спрятать
 gui.editstring=Редактировать нить
 
 gui.entitytags=Теги объекта
-gui.mobspecific=Специфика моба
+gui.mobspecific=Особенности моба
 
 
 tag.skullowner=Владелец головы
@@ -201,14 +201,14 @@ tag.health.on=%s здоровья
 tag.health.off=Мёртв
 tag.absorption.on=%s поглощения
 tag.absorption.off=Без поглощения
-tag.fallflying.on=Парирование как на этитрах
+tag.fallflying.on=Парит как на элитрах
 tag.fallflying.off=Нормальное падение
 tag.noai.on=ИИ выключен
 tag.noai.off=ИИ включен
-tag.persistencerequired.on=Не деспавнится как обычно
+tag.persistencerequired.on=Не деспавнится
 tag.persistencerequired.off=Деспавнится как обычно
-tag.canpickuploot.on=Подпирает лут
-tag.canpickuploot.off=Игнорит лут
+tag.canpickuploot.on=Подбор вещей: включен
+tag.canpickuploot.off=Подбор вещей: выключен
 
 tag.armorstand.arms.0=Без рук
 tag.armorstand.arms.1=Имеет руки
@@ -221,7 +221,7 @@ tag.armorstand.nobase.1=Без опорной плиты
 tag.armorstand.marker.0=Без метки
 tag.armorstand.marker.1=С меткой
 tag.armorstand.inventory=Экипировка
-tag.armorstand.pose=Позиция
+tag.armorstand.pose=Поза
 
 tag.chicken.egglaytime.on=%s тиков до яйца
 tag.chicken.egglaytime.off=Готова отложить яйцо
@@ -237,8 +237,8 @@ tag.creeper.ignited.off=Не воспламеняется
 
 tag.endermite.lifetime.off=Неопределённое время жизни
 tag.endermite.lifetime.on=Время жизни: %s
-tag.endermite.playerspawned.off=Игрок призвал: 0
-tag.endermite.playerspawned.on=Игрок призвал: 1
+tag.endermite.playerspawned.off=TODO
+tag.endermite.playerspawned.on=TODO
 
 tag.parrot.variant.-1=Случайный вид
 tag.parrot.variant.0=Красный вид
@@ -247,7 +247,7 @@ tag.parrot.variant.2=Зелёный вид
 tag.parrot.variant.3=Голубой вид
 tag.parrot.variant.4=Серебряный вид
 
-tag.pig.saddled.on=Со седлом
+tag.pig.saddled.on=С седлом
 tag.pig.saddled.off=Без седла
 
 tag.sheep.color.0=Белая шерсть
@@ -289,13 +289,13 @@ tag.shulker.color.15=Чёрный
 tag.slime.size.on=Размер: %s
 tag.slime.size.off=Размер: %s
 
-tag.villager.profession.-1=Случайный скин
-tag.villager.profession.0=Скин фермера
-tag.villager.profession.1=Скин библиотекаря
-tag.villager.profession.2=Скин священника
-tag.villager.profession.3=Скин кузнеца
-tag.villager.profession.4=Скин мясника
-tag.villager.profession.5=Скин безработного
+tag.villager.profession.-1=Случайная профессия
+tag.villager.profession.0=Профессия фермера
+tag.villager.profession.1=Профессия библиотекаря
+tag.villager.profession.2=Профессия священника
+tag.villager.profession.3=Профессия кузнеца
+tag.villager.profession.4=Профессия мясника
+tag.villager.profession.5=Профессия безработного
 tag.villager.willing.on=Готовый
 tag.villager.willing.off=Не готовый
 
